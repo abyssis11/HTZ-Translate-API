@@ -4,17 +4,16 @@ import azure.functions as func
 from flask import Flask, request, jsonify
 from ..TranslateFunctions.parsing import translate as pars_translate
 from ..TranslateFunctions.prompting import translate as prompt_translate
-#from FlaskApp import app
 
 app = Flask(__name__)
 
-# azure functions code
+# Azure functions code
 def main(req: func.HttpRequest, context: func.Context) -> func.HttpResponse:
     """Each request is redirected to the WSGI handler.
     """
     return func.WsgiMiddleware(app.wsgi_app).handle(req, context)
 
-# flask code
+# Flask code
 @app.route("/")
 def index():
     return (
