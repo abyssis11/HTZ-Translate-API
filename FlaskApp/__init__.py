@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from parsing import translate as pars_translate
-from prompting import translate as prompt_translate
+from ..TranslateFunctions.parsing import translate as pars_translate
+from ..TranslateFunctions.prompting import translate as prompt_translate
 
 app = Flask(__name__)
 
