@@ -1,0 +1,6 @@
+{
+    "Url": "https://visitrab.croatia.hr/hr-hr/dogadanja/rabska-fjera",
+    "Language": "English",
+    "Persona": "English tourist",
+    "Timeframe": "summer"
+}

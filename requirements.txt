@@ -4,3 +4,7 @@
 
 azure-functions
 Flask
+requests
+tiktoken
+openai
+pytest-playwright

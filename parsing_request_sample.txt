@@ -1,0 +1,14 @@
+{
+    "EditAPI": {
+        "Settings": "7pHY6cOBaWxp4weEg5NU0VQVd+viGZXic8aWRMQPqkso7DBD8sZ3SlXZk5uE0/419QtCNeGOhnxQm0ocTzWwHQ==",
+        "LanguageID": "hr",
+        "EntityTypeID": 1066,
+        "IncludeExtendedProperties": true
+    },
+    "TranslateAPI": {
+        "Language": "English",
+        "Persona": "English tourist",
+        "Timeframe": "summer",
+        "NumberOfEvents": 3
+    }
+}
