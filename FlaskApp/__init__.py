@@ -15,7 +15,7 @@ def index():
 def hello(name: str):
     return f"hello {name}"
 
-@app.route("/prompting-translate", methods = ["POST"])
+""" @app.route("/prompting-translate", methods = ["POST"])
 def get_request_data_prompting():
     request_data = request.get_json()
     response = prompt_translate(request_data)
@@ -31,7 +31,7 @@ def get_request_data_parsing():
     response = pars_translate(edit_api_request, traslate_api_request)
 
     return jsonify(response), 200
-
+ """
 
 if __name__ == "__main__":
     app.run()
