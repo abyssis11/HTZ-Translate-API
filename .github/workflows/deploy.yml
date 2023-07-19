@@ -58,7 +58,7 @@ jobs:
     - name: 'Install playwright browsers'
       shell: bash
       run: |
-         python -m playwright install --with-deps
+         python -m .python_packages/lib/site-packages/playwright install --with-deps
 
     - name: 'Run Azure Functions Action'
       uses: Azure/functions-action@v1
